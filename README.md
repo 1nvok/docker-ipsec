@@ -16,7 +16,7 @@ git clone https://github.com/1nvok/docker-ipsec.git
 ## with own parameter
 docker build -t docker-ipsec . && docker run -e SSH_PORT=2222 -e SSH_PASSWD=pass -e VPN_USER=user -e VPN_PASSWD=pass -e VPN_PSK=key -p 500:500/udp -p 4500:4500/udp -p 2222:2222/tcp --name docker-ipsec -dit --privileged docker-ipsec
 
-## with random parametr
+## with random parameter
 docker build -t docker-ipsec . && docker run -e SSH_PORT=2222 -p 500:500/udp -p 4500:4500/udp -p 2222:2222/tcp --name docker-ipsec -dit --privileged docker-ipsec
 
 ## cat credentials
