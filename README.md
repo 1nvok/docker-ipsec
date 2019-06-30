@@ -5,7 +5,9 @@ IKEv1 with PSK and XAuth (Cisco IPSec)
 
 ## Install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
+
 su get-docker.sh
+
 usermod -aG docker $(whoami)
 
 ## Install CT docker-ipsec
