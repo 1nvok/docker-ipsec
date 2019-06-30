@@ -22,13 +22,10 @@ docker exec docker-ipsec cat /var/tmp/SSH_PASSWD
 > Generated root ssh-password - kV2sFpGTvVnUH8fdSP99
 
 docker exec docker-ipsec cat /var/tmp/VPN_USER
-
-Generated username - gLHgYgKwzx
+> Generated username - gLHgYgKwzx
 
 docker exec docker-ipsec cat /var/tmp/VPN_PASSWD
-
-Generated password - IdaoxU0xqmTbQPxubzqs
+> Generated password - IdaoxU0xqmTbQPxubzqs
 
 docker exec docker-ipsec cat /var/tmp/VPN_PSK
-
-Generated psk-key - oJoRqcFB2NIX34Ox4D2T
+> Generated psk-key - oJoRqcFB2NIX34Ox4D2T
