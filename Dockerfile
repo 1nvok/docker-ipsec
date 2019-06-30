@@ -21,4 +21,4 @@ COPY install.sh /install.sh
 RUN chmod 700 /install.sh
 CMD ["/install.sh"]
 
-EXPOSE 500/udp 4500/udp 2231/tcp
+EXPOSE 500/udp 4500/udp 2222/tcp
