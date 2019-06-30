@@ -1,5 +1,5 @@
 # docker-ipsec
-IPSec auth-psk
+IKEv1 with PSK and XAuth (Cisco IPSec)
 
 ## Worked & tested on rhel/centos7
 
@@ -19,8 +19,7 @@ docker build -t docker-ipsec . && docker run -e SSH_PORT=2222 -p 500:500/udp -p 
 
 ## cat credentials
 docker exec docker-ipsec cat /var/tmp/SSH_PASSWD
-
-Generated root ssh-password - kV2sFpGTvVnUH8fdSP99
+> Generated root ssh-password - kV2sFpGTvVnUH8fdSP99
 
 docker exec docker-ipsec cat /var/tmp/VPN_USER
 
